@@ -1,11 +1,13 @@
 import React from 'react';
+import Icon from './core/Icon.js';
 
 class Person extends React.Component {
 	render() {
 		return (
 			<div>
 				<div className="box col-md-2 col-6">
-					<span class="material-icons">directions_walk</span>
+					<Icon />
+					<Person Name="directions_walk, favorite" />
 				</div>
 			</div>
 		);

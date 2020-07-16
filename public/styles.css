@@ -1,0 +1,16 @@
+.boxpair {
+	color: #ccc;
+	height: 190;
+	padding: 10;
+	text-align: center;
+}
+
+.boximpair {
+	color: #aaa;
+	height: 190;
+	padding: 10;
+	text-align: center;
+}
+.eau {
+	background-color: #3a85ff;
+}
