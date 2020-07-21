@@ -3,9 +3,9 @@ import React from 'react';
 class Icon extends React.Component {
 	render() {
 		return (
-			<span style={{ fontSize: 100, color: 'black' }} class="material-icons">
+			<i className="material-icons" style={{ fontSize: 100, color: this.props.color }}>
 				{this.props.name}
-			</span>
+			</i>
 		);
 	}
 }
