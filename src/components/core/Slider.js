@@ -9,8 +9,8 @@ class Slider extends React.Component {
 				<RCSlider
 					max={this.props.max}
 					min={this.props.min}
-					onChange={this.props.onChange}
-					value={this.props.value}
+					onChange={(value) => this.props.onChange(value)}
+					value={this.props.heart}
 				/>
 			</div>
 		);

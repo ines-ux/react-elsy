@@ -1,12 +1,12 @@
 .boxpair {
-	color: #ccc;
+	background-color: #aaa;
 	height: 190;
 	padding: 10;
 	text-align: center;
 }
 
 .boximpair {
-	color: #aaa;
+	background-color: #ccc;
 	height: 190;
 	padding: 10;
 	text-align: center;
